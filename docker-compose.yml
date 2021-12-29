@@ -1,11 +1,14 @@
-iweb:
-  build: .
-  command: python3 -u app.py
-  ports:
-    - "5000:5000"
-  volumes:
-    - .:/todo
-  links:
-    - db
-db:
-  image: mongo:latest
+version: "3"
+
+services:
+  web:
+    build: .
+    command: python3 -u app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/todo
+    links:
+      - db
+  db:
+    image: mongo:latest
