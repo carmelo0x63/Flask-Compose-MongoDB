@@ -1,13 +1,14 @@
 # Flask-Compose-MongoDB
-Working example of a microservice based on Flask+MongoDB
+Working example of a microservice based on Flask and MongoDB
 
 ## Run
 ```
-$ docker-compose build
-$ docker-compose up
+$ docker compose build
+$ docker compose up
 ```
 
 ## Source
-(http://containertutorials.com/docker-compose/flask-mongo-compose.html)
+[Run Flask App with MongoDB using Docker Compose](http://containertutorials.com/docker-compose/flask-mongo-compose.html)
 and
-(https://github.com/rajdeepd/docker-flask-mongo-todo)
+[docker-flask-todo](https://github.com/rajdeepd/docker-flask-mongo-todo)
+
